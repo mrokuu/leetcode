@@ -2,12 +2,14 @@ package org.example;
 
 
 import org.example.reverseString.ReverseString;
+import org.example.shuffleString.ShuffleString;
+import org.example.validPalindrome.ValidPalindrome;
 
 public class Main {
     public static void main(String[] args) {
 
-        ReverseString reverseString = new ReverseString();
+        String s = "A man, a plan, a canal: Panama";
 
-        System.out.println( reverseString.reverseString("abc"));
+        ValidPalindrome.isPalindrome(s);
     }
 }
