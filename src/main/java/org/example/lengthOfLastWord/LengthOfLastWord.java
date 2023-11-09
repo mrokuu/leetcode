@@ -6,6 +6,7 @@ public class LengthOfLastWord {
 
 
         int len = array.length -1;
+
         return array[len].length();
     }
 }
