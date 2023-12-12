@@ -11,8 +11,9 @@ import org.example.validPalindrome.ValidPalindrome;
 public class Main {
     public static void main(String[] args) {
 
-        RemoveDuplicatesfromSortedArrayII removeDuplicatesfromSortedArrayII = new RemoveDuplicatesfromSortedArrayII();
-        int [] array = {0,0,1,1,1,1,2,3,3};
-        removeDuplicatesfromSortedArrayII.removeDuplicates(array);
+       ReverseString reverseString = new ReverseString();
+       String s = "the sky is blue";
+
+        System.out.println(reverseString.reverseString(s));
     }
 }
