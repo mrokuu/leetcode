@@ -1,6 +1,7 @@
 package org.example;
 
 
+import org.example.minimumSizeSubarraySum.MinimumSizeSubarraySum;
 import org.example.removeDuplicatesfromSortedArrayII.RemoveDuplicatesfromSortedArrayII;
 import org.example.reverseString.ReverseString;
 import org.example.romanToInteger.RomanToInteger;
@@ -11,9 +12,10 @@ import org.example.validPalindrome.ValidPalindrome;
 public class Main {
     public static void main(String[] args) {
 
-       ReverseString reverseString = new ReverseString();
-       String s = "the sky is blue";
+        MinimumSizeSubarraySum minimumSizeSubarraySum = new MinimumSizeSubarraySum();
+        int target = 7;
+        int [] nums = {2,3,1,2,4,3};
 
-        System.out.println(reverseString.reverseString(s));
+        System.out.println( minimumSizeSubarraySum.minSubArrayLen(target, nums));
     }
 }
