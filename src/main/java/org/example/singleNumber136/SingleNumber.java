@@ -1,4 +1,4 @@
-package org.example.SingleNumber136;
+package org.example.singleNumber136;
 
 import java.util.HashSet;
 import java.util.Set;
